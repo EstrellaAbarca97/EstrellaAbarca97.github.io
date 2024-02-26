@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .card-img-top {
+            max-width: 200px; /* Define el ancho máximo de la imagen */
+            height: auto; /* Para mantener la proporción de la imagen */
+        }
+        .card-text {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!--Menu-->
+        <nav id="navbar">
+            <div class="contenedor">
+                <img src="img/logo.png" alt="Logo" class="logotipo"/>
+                <ul class="textoBoton" >
+                    <li><a href="index.html" class="Seleccionado">Inicio</a></li>
+                    <li><a href="quien.html">Quien soy</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                </ul>          
+            </div>
+        </nav> 
+       <div id="mostrarSlider">
+        <div class="Slider-banner">
+            <h1>Estrella Abarca</h1> 
+            <p class="large">Licenciada En Sistemas Computacionales</p>
+        </div>
+       </div>
+   </header>
+   <br>
+
+   <!-- Aquí comienzan las nuevas tarjetas -->
+   <section id="Cards">
+       <div class="container">
+           <div class="row">
+               <!-- Primera Card -->
+               <div class="col-md-6">
+                   <div class="card">
+                       <div class="card-body">
+                           <h5 class="card-title">Licenciatura en sistemas computacionales</h5>
+                           <img src="img/lsc" class="card-img-top" alt="Imagen de la primera tarjeta">
+                           <p class="card-text">La Licenciatura en Ingeniería en Sistemas Computacionales tiene como objetivo formar profesionales capaces de administrar y diseñar proyectos de desarrollo de software y hardware, sistemas de información y aplicaciones automatizadas</p>
+                       </div>
+                   </div>
+               </div>
+               <!-- Segunda Card -->
+               <div class="col-md-6">
+                   <div class="card">
+                       <div class="card-body">
+                           <h5 class="card-title">Sistemas operativos</h5>
+                           <img src="img/sistemas" class="card-img-top" alt="Imagen de la segunda tarjeta">
+                           <p class="card-text">El sistema operativo es el software que coordina y dirige todos los servicios y aplicaciones que utiliza el usuario en una computadora, por eso es el más importante y fundamental.</p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <!-- Aquí terminan las nuevas tarjetas -->
+
+  <footer>
+      <p>Universidad Autonoma De Chiapas</p>
+  </footer>
+</body>
+</html>
